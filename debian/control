@@ -1,0 +1,12 @@
+Source: ros-indigo-python-trep
+Section: misc
+Priority: extra
+Maintainer: Jarvis Schultz <jschultz@northwestern.edu>
+Build-Depends: debhelper (>= 9.0.0), freeglut3-dev, libpyside-dev, libshiboken-dev, python-dev, python-imaging, python-matplotlib, python-numpy, python-opengl, python-pyside, python-qt4, python-qt4-dev, python-qt4-gl, python-scipy, python-sip-dev, ros-indigo-catkin, ros-indigo-rospy, shiboken
+Homepage: http://nxr.northwestern.edu/trep
+Standards-Version: 3.9.2
+
+Package: ros-indigo-python-trep
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, freeglut3-dev, libpyside-dev, libshiboken-dev, python-dev, python-imaging, python-matplotlib, python-numpy, python-opengl, python-pyside, python-qt4, python-qt4-dev, python-qt4-gl, python-scipy, python-sip-dev, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-tf, shiboken
+Description: Trep: Mechanical Simulation and Optimal Control Software
