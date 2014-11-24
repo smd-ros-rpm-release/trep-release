@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>python_trep</name>
-  <version>0.93.0</version>
+  <version>0.93.1</version>
   <description>Trep: Mechanical Simulation and Optimal Control Software</description>
   <maintainer email="jschultz@northwestern.edu">Jarvis Schultz</maintainer>
   <maintainer email="awilson@u.northwestern.edu">Andy Wilson</maintainer>
@@ -21,7 +21,8 @@
   <build_depend>glut</build_depend>
   <run_depend>python</run_depend>
   <run_depend>rospy</run_depend>
-  <run_depend>std_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>tf</run_depend>
   <run_depend>python-numpy</run_depend>
   <run_depend>python-scipy</run_depend>
   <run_depend>python-opengl</run_depend>
