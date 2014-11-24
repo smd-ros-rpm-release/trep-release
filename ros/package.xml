@@ -3,6 +3,8 @@
   <name>python_trep</name>
   <version>:{version}</version>
   <description>Trep: Mechanical Simulation and Optimal Control Software</description>
+  <author>Elliot Johnson</author>
+  <author email="t-murphey@northwestern.edu">Todd Murphey</author>
   <maintainer email="jschultz@northwestern.edu">Jarvis Schultz</maintainer>
   <maintainer email="awilson@u.northwestern.edu">Andy Wilson</maintainer>
   <license>GPLv3</license>
