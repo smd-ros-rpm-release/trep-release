@@ -34,4 +34,7 @@
   <run_depend>python-matplotlib</run_depend>
   <run_depend>glut</run_depend>
 
+  <export>
+    <rosdoc config="rosdoc.yaml"/>
+  </export>
 </package>
