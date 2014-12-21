@@ -3,6 +3,8 @@
   <name>python_trep</name>
   <version>0.93.1</version>
   <description>Trep: Mechanical Simulation and Optimal Control Software</description>
+  <author>Elliot Johnson</author>
+  <author email="t-murphey@northwestern.edu">Todd Murphey</author>
   <maintainer email="jschultz@northwestern.edu">Jarvis Schultz</maintainer>
   <maintainer email="awilson@u.northwestern.edu">Andy Wilson</maintainer>
   <license>GPLv3</license>
@@ -32,4 +34,7 @@
   <run_depend>python-matplotlib</run_depend>
   <run_depend>glut</run_depend>
 
+  <export>
+    <rosdoc config="rosdoc.yaml"/>
+  </export>
 </package>
